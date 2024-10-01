@@ -14,4 +14,5 @@ college.department[1]= "Bangla"
 console.log(college.department[1])
 
 const head = college.professor.name ;
-console.log(head)
+delete college.name ; 
+console.log(college)

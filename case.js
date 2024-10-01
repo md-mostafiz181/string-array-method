@@ -8,3 +8,12 @@ if(subject.toLocaleLowerCase() === book.toLocaleLowerCase()){
 }else{
     console.log("jah ajke r porbo na akdom ghumay ghumay sopno dekhbo")
 }
+
+const pani = "  water" ;
+const jol = "water    " ;
+
+if(pani.trim() === jol.trim()){
+    console.log("agulo sob fresh pani")
+}else{
+    console.log("Fresh pani pai na ")
+}
